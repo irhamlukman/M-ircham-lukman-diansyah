@@ -17,10 +17,9 @@ Buka terminal powershell pada visual studioCode
 2.	Lihat Hasil MAC yang telah dibuat
 
 Verifikasi Hmac 
-
-1.	- php verif.php (file program)
+	- php verif.php (file program)
     - text.txt      (objek file yang di enkrip)
     - 12345          (key yang di gunakan sama atau sudah tervertifikasi)
     - 22ee5ef2b3233ae192cc11afdd94c6d9ba4bb0ed  (hasil yang sudah di vertifikasi)
  
-2.	Jika semuanya benar maka program akan mengeluarkan “file tertentivikasi” menandakan MAC dan key benar benar sama
+Jika semuanya benar maka program akan mengeluarkan “file tertentivikasi” menandakan MAC dan key benar benar sama
