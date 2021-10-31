@@ -8,7 +8,7 @@ NIM  : 1814321001
 
 Create Hmac 
 Buka terminal powershell pada visual studioCode 
-1.	php input.php texs.txt dan key abcdefgh
+1.	php input.php texs.txt dan key 12345
   - input.php yaitu sebagai file program yang akan di jalankan 
   -	texs.txt adalah objek yang akan di enkrip menggunakan hmac
   - Abcdefg  adalah key nya 
