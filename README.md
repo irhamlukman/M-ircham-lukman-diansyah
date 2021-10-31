@@ -7,18 +7,20 @@ Nama : Muchammad Ircham Lukman Diansyah
 NIM  : 1814321001
 
 Create Hmac 
-Buka terminal powershell pada visual studioCode (dahal hal ini mengggunakan VScode)
-1.	php create.php UTS.pdf abcdefgh
-•	create.php : berlaku sebagai program yang akan di jalankan 
-•	UTS.pdf : adalah objek yang akan di enkrip menggunakan hmac
-•	Abcdefg : adalah key nya 
+Buka terminal powershell pada visual studioCode 
+1.	php input.php texs.txt dan key abcdefgh
+  - input.php yaitu sebagai file program yang akan di jalankan 
+  -	texs.txt adalah objek yang akan di enkrip menggunakan hmac
+  - Abcdefg  adalah key nya 
+ 
+ 
 2.	Lihat Hasil MAC yang telah dibuat
 
 Verifikasi Hmac 
-Buka terminal powershell pada visual studioCode (dahal hal ini mengggunakan VScode)
-1.	php create.php UTS.pdf abcdefgh fac58c0ff9004e2fb7dc052a92d5937ec904426c
-•	create.php : berlaku sebagai program yang akan di jalankan 
-•	UTS.pdf : adalah objek yang akan di enkrip menggunakan hmac
-•	Abcdefg : adalah key nya 
-•	fac58c0ff9004e2fb7dc052a92d5937ec904426c : hasil mac yang sudah  digunakan sebagai verifikasi 
-2.	Jika semuanya benar maka program akan mengeluarkan “File Tertentivikasi” menandakan MAC dan key benar benar sama
+
+1.	- php verif.php (file program)
+    - text.txt      (objek file yang di enkrip)
+    - 12345          (key yang di gunakan sama atau sudah tervertifikasi)
+    - 22ee5ef2b3233ae192cc11afdd94c6d9ba4bb0ed  (hasil yang sudah di vertifikasi)
+ 
+2.	Jika semuanya benar maka program akan mengeluarkan “file tertentivikasi” menandakan MAC dan key benar benar sama
